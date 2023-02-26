@@ -26,7 +26,7 @@ const Navbar = () => {
             <ul className="flex font-medium lg:space-x-6">
                 {navElements.map(({ path, name }, idx) => (
                     <li>
-                        <a key={`navEl-${idx}`} className={`block py-2 pr-4 pl-3 text-gray-700 border-gray-100 ${setStyles(navLinkClassesObj)}`} href={path}>
+                        <a key={`navEl-${idx}`} className={`block py-2 pr-4 pl-3 text-white border-gray-100 ${setStyles(navLinkClassesObj)}`} href={path}>
                             {name}
                         </a>
                     </li>
